@@ -10,24 +10,11 @@
  */
 public class TestaMaterial {
     public static void main(String[] args, int q) throws QuantidadeInvalidaException{
-        
- 
-        try{
-                
-        Material m1 = new Material("Caderno",-1);}
+  
+        Material m1 = new Material("Caderno",-1);
       
-       }catch(QuantidadeInvalidaException ex){
-    
-        System.out.println(ex.getMessage());
-    
+    }
 }
-        
-      }
-           
-        
     
     
-    
-    
-    
-
+   
